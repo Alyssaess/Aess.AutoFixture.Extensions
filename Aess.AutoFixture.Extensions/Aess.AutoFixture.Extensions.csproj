@@ -8,7 +8,10 @@
         <Authors>Alyssa Stark</Authors>
         <PackageVersion>1.0.0</PackageVersion>
         <PackageProjectUrl>https://github.com/Alyssaess/Aess.AutoFixture.Extensions</PackageProjectUrl>
-        <PackageLicenseUrl></PackageLicenseUrl>
+        <PackageTags>AutoFixture;AutoFixtureExtensions</PackageTags>
+        <Description>
+            Small package that extends some elements of AutoFixture.  Specifically adds the .BuildMany() method.
+        </Description>
     </PropertyGroup>
 
     <ItemGroup>
