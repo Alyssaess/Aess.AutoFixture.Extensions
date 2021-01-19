@@ -1,7 +1,7 @@
 name: Build AutoFixtureExtensions Project
 
 on:
-  push:
+  push
 
 jobs:
   build:
