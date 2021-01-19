@@ -6,7 +6,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Aess AutoFixture Extension</Title>
         <Authors>Alyssa Stark</Authors>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <PackageProjectUrl>https://github.com/Alyssaess/Aess.AutoFixture.Extensions</PackageProjectUrl>
         <PackageTags>AutoFixture;AutoFixtureExtensions</PackageTags>
         <Description>
