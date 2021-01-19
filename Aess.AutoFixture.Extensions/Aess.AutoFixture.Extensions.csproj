@@ -2,6 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Aess AutoFixture Extension</Title>
+        <Authors>Alyssa Stark</Authors>
+        <PackageProjectUrl>https://github.com/Alyssaess/Aess.AutoFixture.Extensions</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
