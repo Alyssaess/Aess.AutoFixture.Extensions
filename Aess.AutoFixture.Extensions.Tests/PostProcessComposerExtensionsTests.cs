@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using Aess.AutoFixture.Extensions;
 using AutoFixture;
 using FluentAssertions;
 using ParkSquare.Testing.Generators;
 using Xunit;
 using StringGenerator = ParkSquare.Testing.Generators.StringGenerator;
 
-namespace Aess.AutoFIxture.Extensions.Tests
+namespace Aess.AutoFixture.Extensions.Tests
 {
     [ExcludeFromCodeCoverage]
     public class PostProcessComposerExtensionsTests
@@ -32,14 +29,15 @@ namespace Aess.AutoFIxture.Extensions.Tests
         {
             var count = IntegerGenerator.AnyIntegerInRange(2,100);
             var executed = 0;
-            Func<string> func = () =>
+
+            string ValueFunction()
             {
                 executed++;
                 return StringGenerator.AnyNonNullString();
-            };
+            }
 
             var result = _sut.BuildMany<TestClass>(count)
-                .With(r => r.StringProperty, func);
+                .With(r => r.StringProperty, ValueFunction);
 
             result.ForEach(r => r.Create());
             executed.Should().Be(count);

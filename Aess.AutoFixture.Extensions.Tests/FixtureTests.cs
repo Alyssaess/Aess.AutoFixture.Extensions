@@ -1,12 +1,10 @@
 using System.Diagnostics.CodeAnalysis;
-using Aess.AutoFixture.Extensions;
 using AutoFixture;
 using FluentAssertions;
-using JetBrains.Annotations;
 using ParkSquare.Testing.Generators;
 using Xunit;
 
-namespace Aess.AutoFIxture.Extensions.Tests
+namespace Aess.AutoFixture.Extensions.Tests
 {
     [ExcludeFromCodeCoverage]
     public class FixtureTests

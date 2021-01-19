@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aess.AutoFixture.Extensions", "Aess.AutoFixture.Extensions\Aess.AutoFixture.Extensions.csproj", "{88C976A9-FC2E-4A87-8B2B-39A86F826CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aess.AutoFIxture.Extensions.Tests", "Aess.AutoFixture.Extensions.Tests\Aess.AutoFixture.Extensions.Tests.csproj", "{9F0543B3-F70D-4C98-9A3D-A195113460C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aess.AutoFixture.Extensions.Tests", "Aess.AutoFixture.Extensions.Tests\Aess.AutoFixture.Extensions.Tests.csproj", "{9F0543B3-F70D-4C98-9A3D-A195113460C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
